@@ -13,9 +13,10 @@ int main() {
 		}
 	}
 	for (int i = 0; i < 100; i++) {
-		if (a[i] == 0) {
-			cout << i << " ";
+		if (a[i] == 1) {
+			cout << i+1 << " ";
 		}
 	}
 	return 0;
+
 }
